@@ -12,8 +12,8 @@ public class _Week02_03 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Input.GetKeyDown (KeyCode.UpArrow))
-		{
+		if (Input.GetKeyDown (KeyCode.UpArrow))		//If you use GetKey instead of GetKeyDown, you can hold the
+		{						//key down for continuous movement instead of steps.
 			Vector3 position = this.transform.position;
 			position.z++;
 			this.transform.position = position;
