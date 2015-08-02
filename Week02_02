@@ -4,7 +4,7 @@ using System.Collections;
 public class _Week02_02 : MonoBehaviour 
 {
 
-	public string Sentence = "'Possesses' posseses a great number of s's.";
+	public string Sentence = "'Possesses' posseses a great number of s's.";//Missing an s in the second possesses.
 	
 	
 	// Use this for initialization
