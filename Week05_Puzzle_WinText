@@ -1,0 +1,16 @@
+using UnityEngine;
+using System.Collections;
+
+public class WinText : MonoBehaviour {
+	
+	public void win () 
+	{
+		gameObject.active = true;
+	}
+	
+	// Update is called once per frame
+	public void lose ()
+	{
+		gameObject.active = false;
+	}
+}
