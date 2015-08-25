@@ -32,3 +32,10 @@ public class Week02_01 : MonoBehaviour
 	
 	}
 }
+
+//The big point of this assignment is that the variable 'Name' is
+//supplied by the user and the function 'Main' takes it and uses
+//it to fill in the variable 'somethingelse' when it calls 'SayHello'.
+//You had the code working right, but then used 'Hello + Name' which shortcutted
+//passing Name to a new variable. In lines 19 and 21 use a different variable, like theName,
+//and it should still work fine.
